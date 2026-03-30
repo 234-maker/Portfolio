@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Srivastav - Portfolio</title>
+    <meta name="description" content="Aryan Srivastav - Creative Web Developer Portfolio">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js Import Map -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- 3D Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJTLpcckXFGnFBzmPJGHcqFMXGmWhkjDZJzhPrlJVdRFWbNRdQMsDZTRzWwSslvvjxLZzLB" target="_blank" rel="noopener noreferrer" class="nav-email">aryansrivastav201999@gmail.com</a>
+        <div class="nav-links">
+            <a href="#about">ABOUT</a>
+            <a href="#projects">WORK</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Overlay UI that scrolls -->
+    <main class="content">
+
+        <!-- Section 1: Hero -->
+        <section class="section hero" id="home">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <p class="greeting">Hello! I'm</p>
+                    <h1 class="hero-name"><a href="https://www.linkedin.com/in/aryan-srivastav-42462b19b/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; transition: opacity 0.3s;" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=1">ARYAN<br>SRIVASTAV</a></h1>
+                    <a href="#" class="btn hero-btn" target="_blank">Download CV</a>
+                </div>
+                <div class="hero-right">
+                    <p class="title-small">A Full Stack</p>
+                    <h2 class="title-large highlight-text">DEVELOPER<br>ENGINEER</h2>
+                </div>
+            </div>
+            
+            <div class="hero-bottom-text">
+                <span class="cursive-text left-cursive">Best</span>
+                <span class="bold-text">PORTFOLIO</span>
+                <span class="cursive-text right-cursive">Ever</span>
+            </div>
+        </section>
+
+        <!-- Section 2: About & Education -->
+        <section class="section about" id="about">
+            <div class="content-panel left-aligned">
+                <h2 class="section-title">About Me</h2>
+                <p>I am a highly motivated B.Tech Computer Science student with foundational expertise in web development. I am eager to apply my problem-solving skills in corporate environments and secure a 6-month internship in AI-integrated or full-stack solutions.</p>
+                
+                <h3 class="subsection-title">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-date">08/2021 - 05/2025</span>
+                        <div class="timeline-title">B.Tech (Computer Science)</div>
+                        <div class="timeline-subtitle">Shri Ramswaroop Memorial University, Lucknow</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-date">08/2021 - 05/2023</span>
+                        <div class="timeline-title">12th Grade</div>
+                        <div class="timeline-subtitle">Vishwanath Academy, Lucknow</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-date">08/2019 - 05/2021</span>
+                        <div class="timeline-title">10th Grade</div>
+                        <div class="timeline-subtitle">Vishwanath Academy, Lucknow</div>
+                    </div>
+                </div>
+
+                <div class="skills-container">
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Projects -->
+        <section class="section projects" id="projects">
+            <div class="content-panel right-aligned">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Placement Prediction & Skill Gap Analyzer</h3>
+                        <span class="timeline-date">08/2023 - 12/2023</span>
+                        <p>Developed an AI-integrated platform to predict student placement probabilities and identify critical technical skill gaps. Implemented machine learning models to analyze academic profiles and deliver personalized career recommendations.</p>
+                        <div class="skills-container small-margin">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">React.js</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Responsive Full-Stack Website</h3>
+                        <span class="timeline-date">02/2023 - 03/2023</span>
+                        <p>Developed a dynamic, multi-page website using React.js for the frontend and Node.js for backend integration. Implemented a fully responsive design and basic gesture controls.</p>
+                        <div class="skills-container small-margin">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Creative Login Web Page</h3>
+                        <span class="timeline-date">01/2023 - 02/2023</span>
+                        <p>Solely developed a custom, visually appealing Login Web Page focusing on modern design principles to create an intuitive user interface from concept to completion.</p>
+                        <div class="skills-container small-margin">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section class="section contact" id="contact">
+            <div class="content-panel center-aligned">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>Looking for a 6-month internship in AI-integrated or full-stack solutions.</p>
+                <div class="contact-info">
+                    <p><strong>Phone:</strong> +91 8840738462</p>
+                    <p><strong>Email:</strong> aryansrivastav201999@gmail.com</p>
+                    <p><strong>Location:</strong> Lucknow</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="input-group">
+                        <input type="text" name="entry.1011855045" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="entry.909185866" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="entry.565294860" placeholder="Your Message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" id="submitBtn">Send Message</button>
+                    <div id="formStatus" style="display: none; margin-top: 1rem; color: var(--secondary-color); font-weight: 500;">Message Sent Successfully!</div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Aryan Srivastav. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/234-maker/Code-Adda" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/aryan-srivastav-42462b19b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+    <!-- Initial Animations & Interactive UI Script -->
+    <script>
+        // Init 3D tilt on cards
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 10,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+        });
+
+        // GSAP Hero Entrance Animations
+        gsap.from(".navbar", { y: -50, opacity: 0, duration: 1, delay: 0.2, ease: "power3.out" });
+        gsap.from(".greeting", { x: -50, opacity: 0, duration: 1, delay: 0.4, ease: "power3.out" });
+        gsap.from(".hero-name", { x: -50, opacity: 0, duration: 1, delay: 0.6, ease: "power3.out" });
+        gsap.from(".hero-btn", { y: 20, opacity: 0, duration: 1, delay: 0.8, ease: "power3.out" });
+        gsap.from(".hero-right .title-small", { x: 50, opacity: 0, duration: 1, delay: 0.4, ease: "power3.out" });
+        gsap.from(".hero-right .title-large", { x: 50, opacity: 0, duration: 1, delay: 0.6, ease: "power3.out" });
+        gsap.from(".hero-bottom-text", { y: 50, opacity: 0, duration: 1, delay: 1, ease: "power3.out" });
+    </script>
+    <!-- Main 3D Script -->
+    <script type="module" src="./main.js"></script>
+
+    <!-- Google Forms Submission Script -->
+    <script>
+        const form = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const formStatus = document.getElementById('formStatus');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault(); // Stop normal redirect
+            
+            // Visual feedback
+            submitBtn.innerText = 'Sending...';
+            submitBtn.disabled = true;
+
+            const formData = new FormData(form);
+            const actionUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdAUF6L6z1W5PsPa1oC2hikujo8_IehxjtLzhbkrag2T5Tc1A/formResponse';
+
+            // Post silently
+            fetch(actionUrl, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors' // Required for cross-origin silently posting to Google
+            }).then(() => {
+                form.reset();
+                submitBtn.innerText = 'Send Message';
+                submitBtn.disabled = false;
+                formStatus.style.display = 'block';
+                setTimeout(() => { formStatus.style.display = 'none'; }, 5000);
+            }).catch(() => {
+                submitBtn.innerText = 'Error! Try Again';
+                submitBtn.disabled = false;
+                setTimeout(() => { submitBtn.innerText = 'Send Message'; }, 3000);
+            });
+        });
+    </script>
+</body>
+</html>
